@@ -1,5 +1,5 @@
 {
-    "name": "@theobroma/eslint-config",
+    "name": "@theobroma222/eslint-config",
     "version": "1.0.0",
     "description": "My personal ESLint configuration for JavaScript and TypeScript projects.",
     "type": "module",
