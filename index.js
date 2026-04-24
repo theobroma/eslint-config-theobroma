@@ -1,8 +1,9 @@
 import js from '@eslint/js';
 import importPlugin from 'eslint-plugin-import';
 import unusedImports from 'eslint-plugin-unused-imports';
+import prettier from 'eslint-config-prettier';
 
-export default [
+const base = [
     js.configs.recommended,
 
     {
@@ -15,6 +16,11 @@ export default [
             // general quality
             'no-console': 'warn',
             'no-debugger': 'error',
+
+            // prettier-ignore
+            "eqeqeq": ["error", "always"],
+            'no-implicit-coercion': 'warn',
+            'no-throw-literal': 'error',
 
             // imports
             'import/order': [
@@ -34,5 +40,14 @@ export default [
                 { argsIgnorePattern: '^_' },
             ],
         },
+
+        languageOptions: {
+            globals: {
+                window: 'readonly',
+                process: 'readonly',
+            },
+        },
     },
 ];
+
+export default [...base, prettier];
