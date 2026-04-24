@@ -1,0 +1,19 @@
+{
+    "name": "@theobroma/eslint-config",
+    "version": "1.0.0",
+    "description": "My personal ESLint configuration for JavaScript and TypeScript projects.",
+    "type": "module",
+    "keywords": [
+        "eslint",
+        "eslintconfig"
+    ],
+    "author": "Aleksandr Siryi",
+    "exports": {
+        ".": "./index.js",
+        "./react": "./react.js",
+        "./ts": "./typescript.js"
+    },
+    "peerDependencies": {
+        "eslint": "^9 || ^10"
+    }
+}
