@@ -15,13 +15,9 @@ npm install -D @theobroma222/eslint-config
 Create eslint.config.js:
 
 ```JavaScript
-import base from "@theobroma222/eslint-config";
-import ts from "@theobroma222/eslint-config/ts";
-import react from "@theobroma222/eslint-config/react";
+import config from '@theobroma222/eslint-config';
 
-export default [
-  ...base,
-  ...ts,
-  ...react
-];
+export default config;
 ```
+
+:warning: Package "eslint-plugin-react" still not supports eslint 10. So stick with eslint 9
