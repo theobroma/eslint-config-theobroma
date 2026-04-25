@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "My personal ESLint configuration for JavaScript and TypeScript projects.",
   "type": "module",
+  "license": "ISC",
   "keywords": [
     "eslint",
     "eslintconfig"
