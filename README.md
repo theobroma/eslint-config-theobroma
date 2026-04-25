@@ -20,4 +20,12 @@ import config from '@theobroma222/eslint-config';
 export default config;
 ```
 
+package.json:
+
+```json
+{
+  "prettier": "eslint-config-yourname/prettier"
+}
+```
+
 :warning: Package "eslint-plugin-react" still not supports eslint 10. So stick with eslint 9
