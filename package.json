@@ -1,6 +1,6 @@
 {
   "name": "@theobroma222/eslint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "My personal ESLint configuration for JavaScript and TypeScript projects.",
   "type": "module",
   "license": "ISC",
@@ -11,8 +11,7 @@
   "author": "Aleksandr Siryi",
   "main": "eslint.config.js",
   "exports": {
-    ".": "./eslint.config.js",
-    "./prettier": "./prettier.config.js"
+    ".": "./eslint.config.js"
   },
   "peerDependencies": {
     "eslint": "^9.x",

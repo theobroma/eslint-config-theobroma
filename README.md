@@ -1,12 +1,6 @@
 # This package provides Theobroma's eslint 9+ shared config
 
-## Versioning strategy
-
-- breaking rule changes → major
-- new rules → minor
-- tweaks → patch
-
-### Usage in a project
+## Usage in a project
 
 Install package:
 
@@ -34,14 +28,6 @@ Create eslint.config.js:
 import config from '@theobroma222/eslint-config';
 
 export default config;
-```
-
-package.json:
-
-```json
-{
-  "prettier": "eslint-config-yourname/prettier"
-}
 ```
 
 :warning: Package "eslint-plugin-react" still not supports eslint 10. So stick with eslint 9
