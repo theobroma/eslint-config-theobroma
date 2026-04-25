@@ -8,8 +8,24 @@
 
 ### Usage in a project
 
+Install package:
+
 ```bash
 npm install -D @theobroma222/eslint-config
+```
+
+Install peerDependencies:
+
+```bash
+npm install -D \
+  eslint-plugin-react \
+  eslint-plugin-react-hooks \
+  eslint-plugin-react-refresh \
+  @typescript-eslint/parser \
+  @typescript-eslint/eslint-plugin \
+  eslint-plugin-prettier \
+  eslint-config-prettier \
+  prettier
 ```
 
 Create eslint.config.js:
